@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="btnAqua">#6C828B</color>
+    <color name="bkgGrey">#655F73</color>
+    <color name="blandGreen">#82846C</color>
+    <color name="boringBeige">#D0BFAB</color>
+    <color name="basicPink">#BA8C8C</color>
+    <!-- Reds -->
+    <color name="redComrade">#A2232E</color>
+    <color name="redMist">#5E1523</color>
+    <color name="redSunset">#602233</color>
+    <color name="redRising">#6A2A38</color>
+
+
+
+
+</resources>
+
+    <!--
+        <color name="">#</color>
+     -->

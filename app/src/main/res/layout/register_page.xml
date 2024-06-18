@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/registerSign"
+        android:layout_width="166dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombreRegistro"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Create a new user"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/newUserField"
+        app:layout_constraintStart_toStartOf="@id/newUserField"
+        />
+
+    <EditText
+        android:id="@+id/newUserField"
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:background="#50ffffff"
+        android:hint="New User"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerSign"
+        />
+
+    <TextView
+        android:id="@+id/pwRegistro"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Create a password"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/newUserPW"
+        app:layout_constraintStart_toStartOf="@id/newUserPW"
+        />
+
+    <EditText
+        android:id="@+id/newUserPW"
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="60dp"
+        android:background="#50ffffff"
+        android:hint="New Password"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newUserField"
+        />
+
+    <Button
+        android:id="@+id/regBtn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/redComrade"
+        android:text="Register"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newUserPW"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
